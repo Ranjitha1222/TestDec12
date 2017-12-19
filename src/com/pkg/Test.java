@@ -25,6 +25,8 @@ public class Test {
         driver.manage().window().maximize();
         Thread.sleep(3000);
         driver.quit();
+        
+        System.out.println("Removing unnecessary comments");
 	}
 
 }
